@@ -1,0 +1,54 @@
+{
+  "name": "beer-webscraper",
+  "version": "1.0.0",
+  "description": "para david",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "beer-webscraper"
+  },
+  "author": "juanma",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "excel4node": "^1.7.2",
+    "exceljs": "^4.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.0",
+    "json-server": "^0.17.0",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.13",
+    "mongoose-type-url": "^2.1.0",
+    "nodemon": "^2.0.15",
+    "phantom": "^6.3.0",
+    "puppeteer": "^7.0.4",
+    "puppeteer-core": "^7.0.1",
+    "random-useragent": "^0.5.0",
+    "request": "^2.88.2"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}
